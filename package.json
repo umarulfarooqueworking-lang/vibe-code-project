@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Anatomy of a Sneaker — scroll-driven Nike Air Max 1 study",
   "scripts": {
+    "start": "node server.js",
     "dev": "vite --port 5173 --strictPort",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
